@@ -1,0 +1,45 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.btn-delete {
+    margin-right: auto;
+    margin-left: 10vw;
+    background: #FF5171;
+    color: white;
+    border-radius: 1rem;
+    padding: 8px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(203, 203, 203);
+
+}
+
+.paginator-element {
+    color: white;
+    background-color: #2593fb;
+    border-radius: 50%;
+    margin: 0.625rem;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.5rem;
+}
+
+
+.selected {
+    background-color: #fff;
+    color: #1890FF;
+    border: 1px solid #1890FF;
+}
+
+.disabled {
+    background: gray;
+    cursor: not-allowed;
+}
